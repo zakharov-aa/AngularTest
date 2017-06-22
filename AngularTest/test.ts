@@ -10,7 +10,7 @@
         this.id = uid;
     }  
 
-    //комментарий
+    //комментарий 1
     public test(first: number, second: string = "default", ...numbers: number[]): void {
         let name: string;
 
