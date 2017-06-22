@@ -9,7 +9,8 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 var User = (function () {
-    function User() {
+    function User(uid) {
+        this.id = uid;
     }
     User.prototype.sum = function (x, y) {
         return x + y;
@@ -35,7 +36,7 @@ var SuperUser = (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     SuperUser.prototype.test = function () {
-        var user = new User();
+        var user = new User("1");
     };
     return SuperUser;
 }(User));
