@@ -11,11 +11,11 @@
      */
     protected sum(x: number, y: string | number): number {
         return x + (y as number);
-    }  
+    }
 
     constructor(uid: string) {
         this.id = uid;
-    }  
+    }
 
     /**
      * 
@@ -30,18 +30,18 @@
         let b: strNum;
 
         let delegat: (x: number, y: string) => number;
-        
+
         delegat = this.sum;
         delegat(1, "as");
     }
 }
 
-class SuperUser extends User{
+class SuperUser extends User {
     //private sum(x: number, y: string | number): number {
     //    return x - (y as number);
     //}
     test(): void {
         let user = new User("1");
-        this.sum(1,2)
+        this.sum(1, 2)
     }
 }
