@@ -85,7 +85,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="QA\Zakharov.ts" />
+    <Content Include="QA\Zakharov.txt" />
     <TypeScriptCompile Include="test.ts" />
   </ItemGroup>
   <ItemGroup>
